@@ -6,3 +6,9 @@ To build:
 
 To Run:
 `docker run -it -v ${PWD}/src:/home/src --name coding-practice-python asdf bash`
+
+To run Python code just 
+Cd into `src` (optional)
+
+Run the scripts:
+`$ python test.py`
