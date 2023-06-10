@@ -13,7 +13,8 @@ FROM base as asdf-python
 RUN apt-get -y install build-essential zlib1g-dev libssl-dev
 SHELL ["/bin/bash", "--login", "-c"] 
 RUN asdf plugin add python
-RUN asdf install python 3.10.8
-RUN asdf global python 3.10.8
+RUN asdf install python 3.10.11
+RUN asdf global python 3.10.11
+
 WORKDIR /home
 
